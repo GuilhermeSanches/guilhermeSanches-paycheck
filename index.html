@@ -1,0 +1,36 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+       <link rel="stylesheet" href="asset/css/main.css">
+       <script src="asset/js/libraries/jquery-1-9.js"></script>
+        <title>PayCheck</title>
+        <meta charset="utf-8">                      
+      </head>
+      <body>
+         <form method="post" id="formPayCheck" name="formPayCheck">
+             <fieldset>
+                 <p>Salary Paycheck Calculator</p>
+                 
+                 <label class="results">
+                    Salary
+                     <input type="text" placeholder="salary" name="salary" required= "true">
+                 </label>
+                     <input type="submit" value="Calc" name="calc" id="btCalc">                     
+                 <label class="results">INSS:
+                         <input class="respInp" id="inpINSS" readonly="true" type="text" value="" placeholder="R$0,00">
+                 </label>
+                 <label class="results">IRPF: 
+                         <input class="respInp" id="inpIRPF" readonly="true" type="text" value="" placeholder="R$0,00" >
+                 </label>
+                 <label class="results">Liquid Salary:
+                         <input class="respInp" id="inpSalLiquid" readonly="true" type="text" value="" placeholder="R$0,00">
+                 
+                 </label>
+                 
+             </fieldset>
+             
+         </form>
+         <script src="asset/js/payCheckService.js"></script>
+         <script src="asset/js/payCheckController.js"></script>
+      </body>
+    </html>

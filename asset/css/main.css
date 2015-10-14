@@ -1,0 +1,42 @@
+*{
+font-family: cursive;
+font-size: 12px;    
+font-style: italic;    
+    
+
+}
+
+form label{
+    display: block;
+    margin: 30px auto;
+    
+}
+p{
+    text-decoration: none;    
+    border-bottom: 1px solid black;
+    font-size: 20px;
+
+}
+
+fieldset{
+    display: block;
+    width: 400px;
+    
+}
+
+.results{
+    text-align: right;
+    margin: auto 90px 10px 10px;
+
+}
+
+#btCalc{
+    position: absolute;
+    margin: -35px 320px;
+}
+
+fieldset{
+    margin: 10px auto;
+
+}
+
